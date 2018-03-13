@@ -27,15 +27,15 @@
   font-family: 'Dancing Script', cursive;
   font-size: calc(100vw / 30);
   text-align: center;
-  color: darkgreen;
+  color: #484848;
 }
 
 #logo h3 {
   margin-top: 15px;
-  font-family: 'Lato', sans-serif;
-  font-size: calc(100vw / 45);
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: calc(100vw / 50);
   text-align: center;
-  color: darkgreen;
+  color: #484848;
 }
 
 @keyframes bounceInDown {

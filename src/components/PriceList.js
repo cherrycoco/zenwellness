@@ -6,6 +6,7 @@ const PriceList = () => (
     <div className='title'>
       <h1>Price List</h1>
     </div>
+    <div id='price-line'/>
     <div id='price-list'>
       <div className='categories'>
         <h2>Acupuncture</h2>

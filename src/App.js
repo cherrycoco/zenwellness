@@ -8,9 +8,11 @@ import AboutUs from './components/AboutUs';
 class App extends Component {
   render() {
     return (
-      <AboutUs />
-      // <Home />
-      // <PriceList />
+      <div>
+        <Home />
+        <AboutUs />
+        <PriceList />
+      </div>
     );
   }
 }
