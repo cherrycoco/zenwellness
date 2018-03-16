@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css';
+import '../styles/Home.css';
 import logo from '../assets/zen-logo.png';
 
 const Home = () => (

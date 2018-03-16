@@ -1,5 +1,5 @@
 import React from 'react';
-import './PriceList.css';
+import '../styles/PriceList.css';
 
 const PriceList = () => (
   <div id='price'>

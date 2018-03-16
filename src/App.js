@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
 import PriceList from './components/PriceList';
 import Home from './components/Home';
 import AboutUs from './components/AboutUs';
+import ContactUs from './components/ContactUs';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Home />
         <AboutUs />
         <PriceList />
+        <ContactUs />
       </div>
     );
   }
