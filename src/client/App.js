@@ -8,12 +8,21 @@ import ContactUs from './components/ContactUs';
 import Form from './components/Form';
 import Nav from './components/Nav';
 
+const styles = {
+  container: {
+    display: 'grid',
+    gridTemplateRows: 'auto',
+  },
+  top: {
+    gridRowStart: 1
+  }
+}
 class App extends Component {
   render() {
     return (
-      <div>
-        <Nav />
-        <Home />
+      <div style={styles.container}>
+        <Nav style={styles.top}/>
+        <Home style={styles.top}/>
         <AboutUs />
         <PriceList />
         <ContactUs />

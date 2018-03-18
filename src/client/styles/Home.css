@@ -3,6 +3,8 @@
   grid-template-columns: 1.0fr 1.5fr 0.3fr;
   grid-template-rows: 0.5fr 1.5fr 2fr;
   height: 100vh;
+  width: 100vw;
+  margin-top: -40px;
   background: url('https://s3-eu-west-1.amazonaws.com/sc-files.pjms.fr/p/pjms/872/000/207/657/a701b7af56194c7f916bc9998abdc501.jpg') no-repeat center center fixed; 
   background-size: cover;
   -webkit-background-size: cover;

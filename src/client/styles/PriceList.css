@@ -1,6 +1,6 @@
 #price {
   display: grid;
-  height: 100vh;
+  min-height: 100vh;
   grid-template-columns: 50px auto 50px;
   grid-template-rows: 0.5fr 6fr; 
 }
