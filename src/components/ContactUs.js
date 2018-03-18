@@ -2,10 +2,19 @@ import React from 'react';
 import '../styles/ContactUs.css';
 import SvgIcon from 'material-ui/SvgIcon';
 import BusinessHours from './BusinessHours';
+import Divider from 'material-ui/Divider';
+
+const styles = {
+  divider: {
+    width: '80%',
+    margin: '25px auto',
+  }
+};
 
 const ContactUs = () => (
   <div>
     <h1>What are you waiting for?</h1>
+    <hr style={styles.divider} />
     <p>736 West 16th Avenue</p>
     <p>Vancouver, BC V5Z 1S7</p>
     <SvgIcon>

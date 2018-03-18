@@ -1,7 +1,7 @@
 #about-us {
-  /* height: 100vh; */
+  min-height: 100vh;
   display: grid;
-  grid-template-rows: 0.5fr 3fr 0.5fr;
+  grid-template-rows: 50px auto 50px;
   grid-template-columns: 1.5fr 3.5fr 1.5fr;
   /* width: 100vw; */
   /* opacity: 0.5; */
