@@ -1,32 +1,23 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './styles/App.css';
 import PriceList from './components/PriceList';
 import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
-import Form from './components/Form';
 import Nav from './components/Nav';
+import Map from './components/Map';
+import Navbar from './components/Navbar';
 
-const styles = {
-  container: {
-    display: 'grid',
-    gridTemplateRows: 'auto',
-  },
-  top: {
-    gridRowStart: 1
-  }
-}
+
 class App extends Component {
   render() {
     return (
-      <div style={styles.container}>
-        <Nav style={styles.top}/>
-        <Home style={styles.top}/>
-        <AboutUs />
+      <div>
+        <Navbar />
+        <Home />
+        <AboutUs /> 
         <PriceList />
-        <ContactUs />
-        <Form />
+        <Map />
       </div>
     );
   }

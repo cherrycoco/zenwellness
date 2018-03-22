@@ -2,12 +2,11 @@ import React from 'react';
 import '../styles/PriceList.css';
 
 const PriceList = () => (
-  <div id='price'>
+  <div id='price-list'>
     <div className='title'>
       <h1>Price List</h1>
     </div>
-    <div id='price-line'/>
-    <div id='price-list'>
+    <div id='price'>
       <div className='categories'>
         <h2>Acupuncture</h2>
         <div className='items'>

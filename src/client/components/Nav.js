@@ -42,10 +42,14 @@ class Nav extends React.Component {
     const sideList = (
       <div className={classes.list}>
       <img className={classes.logo} src={logo} alt='zen wellness center logo' />
-        <Button className={classes.navItem}>Home</Button>
+        <a href="#home">Home</a>
+        <a href="#about-us">About Us</a>
+        <a href="#price-list">Price List</a>
+        <a href="#contact-us">Contact Us</a>
+        {/* <Button className={classes.navItem}>Home</Button>
         <Button className={classes.navItem}>About Us</Button>
         <Button className={classes.navItem}>Price List</Button>
-        <Button className={classes.navItem}>Contact Us</Button>
+        <Button className={classes.navItem}>Contact Us</Button> */}
       </div>
     );
 

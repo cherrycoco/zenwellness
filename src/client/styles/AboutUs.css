@@ -1,15 +1,9 @@
 #about-us {
   min-height: 100vh;
   display: grid;
-  grid-template-rows: 50px auto 50px;
+  grid-template-rows: 70px auto 50px;
   grid-template-columns: 1.5fr 3.5fr 1.5fr;
-  /* width: 100vw; */
-  /* opacity: 0.5; */
-  /* background: url('https://apps.fedoraproject.org/nuancier/pictures/f24/hhlp-zen.png') no-repeat center center fixed; */
-  /* background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; */
+  background-color: #f7f8f8;
 }
 
 #about-title {

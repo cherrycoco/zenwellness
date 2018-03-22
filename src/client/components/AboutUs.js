@@ -5,7 +5,7 @@ const AboutUs = () => (
   <div id='about-us'>
     <div id='about-title'>
       <h1>The Zen Story</h1>
-      <div id='line'/>
+      <hr className='divider' />
       <p>It all started with a dream to help you and your family members achieve health and happiness.</p>
       <br/>
       <p>Cindy and Stanley have been on a continuous journey for more than 10 years perfecting their respective treatment techniques.</p>
@@ -18,6 +18,5 @@ const AboutUs = () => (
     </div>
   </div>
 )
-
 
 export default AboutUs;
