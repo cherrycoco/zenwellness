@@ -1,0 +1,105 @@
+#footer {
+  clear: both;
+  margin-top: 100px;
+}
+
+.footer-block {
+  margin-top: 30px;
+  text-align: center;
+  line-height: 2em;
+  float: left;
+}
+
+.footer-block h2 {
+  font-family: 'arno-pro';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 11.5px;
+  line-height: 2.1em;
+  letter-spacing: .25em;
+  margin: 10px 0;
+}
+
+.footer-block p,
+#company a,
+.contact a {
+  font-family: 'arno-pro';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1em;
+  letter-spacing: .05em;
+  margin: 10px 0;
+  display: block;
+  cursor: pointer;
+}
+
+.footer-block p,
+.contact a {
+  line-height: 1.5em;
+}
+
+.footer-block p {
+  cursor: auto;   
+}
+
+#yelp-icon {
+  width: 100px;
+}
+
+#madeByBanner {
+  padding: 40px 0;
+  clear: both;
+  font-family: 'arno-pro';
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+#follow-icons a {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 530px) {
+  .footer-block {
+    width: calc(100vw/4);
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .footer-block {
+    width: calc(100vw/2);
+  }
+}
+
+#end-img {
+  background-image: url('https://static1.squarespace.com/static/5755bccb8259b515333df0e1/t/576336d3ff7c507e597e35de/1466119899593/Stocksy_comp_821143-crop.jpg?format=2500w');
+  height: 100vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#end-img-address {
+  padding-top: 30%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#end-img a,
+#end-img h4 {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 1.1em;
+  display: inline-block;
+}
+
+#end-img h1 {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  padding-top: 30px;
+}
+
