@@ -1,0 +1,39 @@
+#about {
+  margin: 80px auto;
+}
+
+#about h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.8em;
+  line-height: 1.4em;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  color: #222;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#about p {
+  font-family: 'Monserrat', sans-serif;
+  margin-bottom: 25px;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13.5px;
+  line-height: 2.4em;
+  letter-spacing: .065em;
+  color: #1b1b1b;
+}
+
+@media only screen and (min-width: 600px) {
+  #about {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #about {
+    max-width: 300px;
+  }
+}
