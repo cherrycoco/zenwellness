@@ -1,0 +1,255 @@
+/* Main Image Components */
+
+.main-img {
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.main-img h1 {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  position: absolute; 
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+}
+
+/* What do you need component */
+
+#what-do-you-need h3 {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #626262;
+  letter-spacing: 0.03em;
+  padding: 60px 0 30px 0;
+}
+
+#what-do-you-need h2 {
+  font-size: 28px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #373737;
+  letter-spacing: 0.03em;
+  padding-bottom: 60px;
+}
+
+/* Service Comonents */
+
+#serviceComponent-wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.mainBody-serviceComponent {
+  width: calc(99.5vw/3);
+  height: 240px;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.5s;
+  overflow: hidden;
+  position: relative;
+}
+
+.mainBody-serviceComponent::before { 
+  content:"";
+  position:absolute; top:0;right:0;bottom:0;left:0;
+  background:inherit;
+  transition:inherit;
+}
+.mainBody-serviceComponent:hover::before { 
+  transform: scale(1.2);
+}
+
+.mainBody-serviceComponent:hover .mainBody-serviceComponent-readMore, 
+.mainBody-serviceComponent:hover .mainBody-serviceComponent-title {
+  transform: translate(0);
+}
+
+.mainBody-serviceComponent-title {
+  z-index: 10;
+  background-color: white;
+  padding: 15px;
+  height: 21px;
+  display: inline-block;
+  transform: translate(65px);
+  transition: all 0.2s;
+}
+
+.mainBody-serviceComponent-title h1 {
+  color: #626262;
+  font-size: 15px;
+  margin-bottom: 0;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.mainBody-serviceComponent-readMore {
+  height: 65px;
+  width: 65px;
+  background-color: #ff9061;
+  z-index: 10;
+  transform: translate(65px);
+  transition: transform 0.2s;
+  /* transition: z-index 0.5s 0.3s; */
+}
+
+.mainBody-serviceComponent-readMore h2 {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding-top: 15px;
+}
+
+/* MiniAbout Component */
+
+#miniAbout {
+  height: 660px; 
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.4), 
+    rgba(255, 255, 255, 0.4)),
+    url(../assets/spa-background7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+h2.mainBody-heading {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #373737;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  padding-top: 100px;
+}
+
+#miniAbout-body {
+  width: 370px;
+  margin-left: 70px;
+  padding-top: 70px;
+}
+
+#miniAbout p {
+  line-height: 1.75;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+#miniAbout b {
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+#miniAbout button {
+  width: 100px;
+  height: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+
+/* Num Link Components */
+
+.num-link h3 {
+  font-family: 'arno-pro', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.8em;
+  letter-spacing: .1em;
+  line-height: 3em;
+  text-transform: none;
+  text-align: left;
+}
+
+.num-link a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3em;
+  letter-spacing: .25em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  color: black;
+}
+
+@media only screen and (min-width: 710px) {
+  .num-link {
+    margin: 100px auto;
+    display: flex;
+  }
+  
+  .num-link.left {
+    flex-direction: row-reverse;
+    margin-left: 100px;
+    justify-content: flex-end;
+  }
+  
+  .num-link.right {
+    flex-direction: row;
+    margin-right: 100px;
+    justify-content: flex-end;
+  }
+
+  .num-link-title {
+    margin: 100px 30px 0 30px;
+  }
+
+  .num-link img {
+    width: 300px;
+    height: 350px;
+    opacity: 0.7;
+    object-fit: cover;
+  }
+
+  #quote {
+    width: 350px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .num-link {
+    margin: 100px auto;
+    width: 85vw;
+  }
+
+  .num-link img {
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    opacity: 0.7;
+    object-fit: cover;
+  }
+
+  .num-link-title {
+    margin-left: -10px;
+  }
+
+  #main-img {
+    position: static;
+    height: 300px;
+  }
+
+  #quote {
+    width: 350px;
+  }
+}
