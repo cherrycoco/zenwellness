@@ -1,0 +1,96 @@
+#rate-components-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.rate-component {
+  width: 350px;
+  height: 380px;
+  margin: 20px;
+  padding: 30px;
+  border: 2px solid white;
+  position: relative;
+  transition: color 0.25s;
+  flex-direction: row;
+}
+
+.rate-component img {
+  width: 100%;
+  height: 230px;
+}
+
+.rate-component-left {
+  float: left;
+}
+
+.rate-component-right {
+  float: right;
+}
+
+.rate-component h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.rate-component p {
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  line-height: 30px;
+}
+
+/* Rate-component border animation */
+
+.rate-component::before,
+::after {
+  box-sizing: inherit;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid transparent;
+  width: 0;
+  height: 0;
+}
+
+.rate-component::before {
+  top: 0;
+  left: 0;
+}
+
+.rate-component::after {
+  bottom: 0;
+  right: 0;
+}
+
+.rate-component:hover {
+  color: #ff9061;
+  border: none;
+  transition: all 1s;
+}
+
+.rate-component:hover::before {
+  width: 100%;
+  height: 100%;
+  border-top-color: #ff9061;
+  border-right-color: #ff9061;
+  transition:
+    width 0.25s ease-out,
+    height 0.25s ease-out 0.25s;
+}
+
+.rate-component:hover::after {
+  width: 100%;
+  height: 100%;
+  border-bottom-color: #ff9061;
+  border-left-color: #ff9061;
+  transition:
+    border-color 0s ease-out 0.5s,
+    width 0.25s ease-out 0.5s,
+    height 0.25s ease-out 0.75s;
+}
