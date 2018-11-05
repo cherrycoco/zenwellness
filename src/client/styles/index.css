@@ -49,5 +49,91 @@ table {
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgb(74, 75, 78);
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+p,
+a {
+  font-size: 16px;
+  color: rgb(34, 34, 34);
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgb(34, 34, 34);
+  font-weight: 200;
+  letter-spacing: 0.07em;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  line-height: 1.4em;
+  letter-spacing: .25em;
+  color: #222;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* border box animation  */
+
+.box {
+  border: none;
+  position: relative;
+}
+
+.box::before,
+::after {
+  box-sizing: inherit;
+  content: '';
+  position: absolute;
+  border: 2px solid transparent;
+  width: 0;
+  height: 0;
+}
+
+.box::before {
+  top: 0;
+  left: 0;
+}
+
+.box::after {
+  bottom: 0;
+  right: 0;
+}
+
+.box:hover {
+  color: #ff9061;
+  border: none;
+  transition: all 1s;
+}
+
+.box:hover::before {
+  width: 100%;
+  height: 100%;
+  border-top-color: #ff9061;
+  border-right-color: #ff9061;
+  transition:
+    width 0.25s ease-out,
+    height 0.25s ease-out 0.25s;
+}
+
+.box:hover::after {
+  width: 100%;
+  height: 100%;
+  border-bottom-color: #ff9061;
+  border-left-color: #ff9061;
+  transition:
+    border-color 0s ease-out 0.5s,
+    width 0.25s ease-out 0.5s,
+    height 0.25s ease-out 0.75s;
 }
