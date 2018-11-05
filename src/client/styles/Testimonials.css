@@ -1,0 +1,66 @@
+.testimonial-wrapper {
+  margin: 50px 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.what-people-say {
+  width: 40%;
+  padding-top: 100px;
+  float: left;
+  margin-left: 8%;
+  margin-right: 2%;
+}
+
+.what-people-say h2 {
+  font-weight: 200;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #373737;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.what-people-say p {
+  line-height: 22px;
+}
+
+.what-people-say b {
+  font-weight: 900;
+}
+
+.comments-wrapper {
+  float: right;
+  width: 40%;
+  margin-left: 3%;
+  margin-right: 7%;
+  padding-top: 50px;
+}
+
+/* .show {
+  display: block;
+}
+
+.hide {
+  display: none;
+} */
+
+.comment {
+  background-color: rgb(34, 34, 34);
+  min-height: 80px;
+  color: white;
+}
+
+.comment p {
+  padding: 20px;
+  font-size: 14.5px;
+  line-height: 20px;
+  color: white;
+}
+
+.avatar-wrapper {
+  margin-top: 20px;
+}
