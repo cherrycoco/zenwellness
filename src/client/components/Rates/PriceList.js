@@ -1,21 +1,18 @@
 import React from 'react';
-import '../styles/PriceList.css';
+import '../../styles/PriceList.css';
 
 const PriceList = () => (
   <div id='price-list'>
-    <div className='title'>
-      <h1>Price List</h1>
-    </div>
     <div id='price'>
       <div className='categories'>
         <h2>Acupuncture</h2>
         <div className='items'>
           <div className='item'>Initial Assessment & Treatment</div>
-          <div className='price'>$75</div>
+          <div className='price'>$95</div>
         </div>
         <div className='items'>
           <div className='item'>Subsequent Treatments</div>
-          <div className='price'>$65</div>
+          <div className='price'>$85</div>
         </div>
       </div>
 

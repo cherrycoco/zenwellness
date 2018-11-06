@@ -1,54 +1,31 @@
 #price-list {
   display: grid;
   min-height: 100vh;
-  grid-template-columns: 50px auto 50px;
-  grid-template-rows: 50px 10% auto 10%; 
-  background-color: #f7f8f8;
-}
-
-body {
-  font-family: 'Poiret One', cursive;
-  font-size: 15px;
-}
-
-h2 {
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 18px;
-}
-
-h1 {
-  font-family: 'Julius Sans One', sans-serif;
-  color: #484848;
-  font-size: 3em;
-  text-align: center;
-}
-
-.divider {
-  width: 80%;
-  margin: 25px auto
-}
-
-.title {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  justify-self: center;
-  align-self: center;
+  grid-template-columns: 100px auto 100px;
+  grid-template-rows: 50px auto 50px; 
 }
 
 #price {
   grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  border-top: 1px solid #DBDBDB;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#price h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 .items {
   display: grid;
   grid-template-columns: 4fr 0.5fr;
   grid-template-rows: 0.3fr 2fr 0.3fr;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 300;
 }
 
 .item {

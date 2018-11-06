@@ -3,7 +3,9 @@ import RateComponent from './RateComponent';
 import MainImg from '../MainBody/MainImg';
 import ScrollToTop from '../ScrollToTop';
 import img from '../../assets/spa-background5.jpg';
+import comboImg from '../../assets/spa-background11.jpg';
 import '../../styles/Rates.css';
+import PriceList from './PriceList';
 
 const Rates = () => (
   <div id='rates'>
@@ -12,7 +14,8 @@ const Rates = () => (
       img={img}
       title='Rates'
     />
-    <div id='rate-components-wrapper'>
+    <PriceList />
+    {/* <div id='rate-components-wrapper'>
       <RateComponent 
         src='https://d2qc4bb64nav1a.cloudfront.net/cdn/13/images/20141119122408ubqupt.jpg'
         alt='swedish massage'
@@ -56,17 +59,17 @@ const Rates = () => (
         lineTwoRight='$65'
       />
       <RateComponent 
-        src='https://mindbodygreen-res.cloudinary.com/image/upload/w_767,q_auto:eco,f_auto,fl_lossy/org/istock-480392420.jpg'
+        src={comboImg}
         alt='deluxe combo'
         title='DELUXE COMBO'
-        lineOneLeft='A: 75 min (25 min FR & 50 min Body)'
+        lineOneLeft='A: 50 min Body Massage & 25 min Reflexology'
         lineOneRight='$68'
-        lineTwoLeft='B: 100 min'
+        lineTwoLeft='B: 50 min Body Massage & 50 min Reflexology'
         lineTwoRight='$84'
-        lineThreeLeft='C: 125 min'
+        lineThreeLeft='C: 50 min Body Massage & 75 min Reflexology'
         lineThreeRight='$108'
       />
-    </div>
+    </div> */}
   </div>
 )
 
