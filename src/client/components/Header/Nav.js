@@ -6,25 +6,6 @@ const activeStyle = {
 }
 
 class Nav extends React.Component {
-
-  componentDidMount () {
-    window.addEventListener('scroll', this.handleScroll);
-  }
-
-  componentWillUnmount () {
-    window.removeEventListener('scroll', this.handleScroll);
-  }
-
-  handleScroll = () => {
-    // add and remove shrink class to navbar
-    let header = document.getElementById('header');
-    if (window.scrollY !== 0) {
-      header.classList.add('shrink');
-    } else {
-      header.classList.remove('shrink');
-    }
-  };
-
   render () {
     return (
       <div id='nav'>

@@ -14,10 +14,17 @@
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   position: absolute; 
+  font-size: 24px;
   top: 45%;
   left: 50%;
   transform: translateX(-50%);
   width: 90%;
+}
+
+@media only screen and (max-width: 599px) {
+  .main-img h1 {
+    font-size: 1.1em;
+  }
 }
 
 /* What do you need component */
@@ -41,6 +48,22 @@
   padding-bottom: 60px;
 }
 
+@media only screen and (max-width: 599px) {
+  #what-do-you-need {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  #what-do-you-need h2 {
+    font-size: 18px;
+  }
+
+  #what-do-you-need h3 {
+    font-size: 12px;
+  }
+}
+
 /* Service Comonents */
 
 #serviceComponent-wrapper {
@@ -50,7 +73,6 @@
 }
 
 .mainBody-serviceComponent {
-  width: calc(99.5vw/3);
   height: 240px;
   display: flex;
   flex: 1;
@@ -115,8 +137,24 @@
   padding-top: 15px;
 }
 
-/* MiniAbout Component */
+@media only screen and (max-width: 599px) {
+  #serviceComponent-wrapper {
+    width: 100vw;
+    flex-direction: column;
+  }
 
+  .mainBody-serviceComponent-title {
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mainBody-serviceComponent {
+    width: calc(99.5vw/3);
+  }
+}
+
+/* MiniAbout Component */
 #miniAbout {
   height: 660px; 
   background: linear-gradient(
@@ -164,6 +202,12 @@ h2.mainBody-heading {
   background-color: transparent;
 }
 
+@media only screen and (max-width: 599px) {
+  #miniAbout-body {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 
 /* Num Link Components */
 
