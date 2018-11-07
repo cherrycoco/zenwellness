@@ -64,6 +64,10 @@ a {
   text-decoration: none;
 }
 
+a {
+  font-weight: 400;
+}
+
 h3 {
   font-family: 'Source Sans Pro', sans-serif;
   color: rgb(34, 34, 34);
@@ -136,4 +140,12 @@ h1 {
     border-color 0s ease-out 0.5s,
     width 0.25s ease-out 0.5s,
     height 0.25s ease-out 0.75s;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }

@@ -30,6 +30,14 @@ const PriceList = () => (
           <div className='price'>$49</div>
         </div>
         <div className='items'>
+          <div className='item'>60 min</div>
+          <div className='price'>$59</div>
+        </div>
+        <div className='items'>
+          <div className='item'>75 min</div>
+          <div className='price'>$74</div>
+        </div>
+        <div className='items'>
           <div className='item'>90 min</div>
           <div className='price'>$89</div>
         </div>
@@ -50,7 +58,7 @@ const PriceList = () => (
       <div className='categories'>
         <h2>Deluxe Combo A - 75 min</h2>
         <div className='items'>
-          <div className='item'>50 min Deep Tissue Massage or Swedish Massage AND 25 min Foot Reflexology</div>
+          <div className='item'>50 min Deep Tissue Massage or Swedish Massage <b>&</b> 25 min Foot Reflexology</div>
           <div className='price'>$68</div>
         </div>
       </div>
@@ -58,7 +66,7 @@ const PriceList = () => (
       <div className='categories'>
         <h2>Deluxe Combo B - 100 min</h2>
         <div className='items'>
-          <div className='item'>50 min Deep Tissue Massage or Swedish Massage AND 50 min Foot Reflexology</div>
+          <div className='item'>50 min Deep Tissue Massage or Swedish Massage <b>&</b> 50 min Foot Reflexology</div>
           <div className='price'>$84</div>
         </div>
       </div>
@@ -66,8 +74,16 @@ const PriceList = () => (
       <div className='categories'>
         <h2>Deluxe Combo C - 125 min</h2>
         <div className='items'>
-          <div className='item'>75 min Deep Tissue Massage or Swedish Massage AND 50 min Foot Reflexology</div>
+          <div className='item'>75 min Deep Tissue Massage or Swedish Massage <b>&</b> 50 min Foot Reflexology</div>
           <div className='price'>$108</div>
+        </div>
+      </div>
+
+      <div className='categories'>
+        <h2>Deluxe Combo D - 125 min</h2>
+        <div className='items'>
+          <div className='item'>90 min Deep Tissue Massage or Swedish Massage <b>&</b> 50 min Foot Reflexology</div>
+          <div className='price'>$128</div>
         </div>
       </div>
     </div>

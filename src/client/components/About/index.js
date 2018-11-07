@@ -2,7 +2,7 @@ import React from 'react';
 import ScrollToTop from '../ScrollToTop';
 import MainImg from '../MainBody/MainImg';
 import ScrollAnimation from 'react-animate-on-scroll';
-import img from '../../assets/spa-background.jpg';
+import img from '../../assets/spa-background9.jpg';
 import '../../styles/About.css';
 
 const About = () => (

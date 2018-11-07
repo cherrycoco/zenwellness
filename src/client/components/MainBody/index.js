@@ -28,6 +28,7 @@ const MainBody = () => (
       img= {mainImg}
       title='Relax, Restore & Rejuvinate'
     />
+
     <div id='what-do-you-need'>
       <ScrollAnimation
         animateIn="fadeInUp"
@@ -35,13 +36,16 @@ const MainBody = () => (
       >
         <h3>ACUPUNCTURE / MASSAGE / FOOT REFLEXOLOGY</h3>
       </ScrollAnimation>
+
       <ScrollAnimation
         animateIn="fadeInUp"
         animateOnce
       >
         <h2>WHAT DO YOU NEED?</h2>
       </ScrollAnimation>
+      
     </div>
+
     <div id='serviceComponent-wrapper'>
       <ScrollAnimation
         animateIn="slideInLeft"
@@ -74,6 +78,7 @@ const MainBody = () => (
         />
       </ScrollAnimation>
     </div>
+
     <ScrollAnimation
       animateIn="slideInUp"
       animateOnce
@@ -81,6 +86,7 @@ const MainBody = () => (
     >
       <BookButton title="BOOK AN APPOINTMENT"/>
     </ScrollAnimation>
+
     <ScrollAnimation
       animateIn="fadeIn"
       animateOnce

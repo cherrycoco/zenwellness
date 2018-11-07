@@ -1,7 +1,18 @@
+@media only screen and (min-width: 600px) {
+  #price-list {
+    grid-template-columns: 100px auto 100px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  #price-list {
+    grid-template-columns: 30px auto 30px;
+  }
+}
+
 #price-list {
   display: grid;
   min-height: 100vh;
-  grid-template-columns: 100px auto 100px;
   grid-template-rows: 50px auto 50px; 
 }
 
@@ -20,7 +31,7 @@
 
 .items {
   display: grid;
-  grid-template-columns: 4fr 0.5fr;
+  grid-template-columns: 4fr 1fr;
   grid-template-rows: 0.3fr 2fr 0.3fr;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
@@ -45,4 +56,8 @@
 
 .categories {
   margin-top: 30px;
+}
+
+.items b {
+  font-weight: 700;
 }
