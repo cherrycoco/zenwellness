@@ -48,4 +48,41 @@
   color: #ff9061;
 }
 
+#mobile-nav button {
+  float: right;
+  color: white;
+  margin-right: 20px;
+}
 
+#reservation {
+  margin: 10px;
+  text-align: left;
+}
+
+#reservation h4 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+#reservation a {
+  font-weight: 400;
+}
+
+#nav-side-list {
+  width: 250px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#nav-side-list-logo {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 599px) {
+  #header h1 {
+    font-size: 1em;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+}
