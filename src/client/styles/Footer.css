@@ -61,15 +61,20 @@
   margin-right: 10px;
 }
 
-@media only screen and (min-width: 530px) {
+@media only screen and (min-width: 600px) {
   .footer-block {
     width: calc(100vw/4);
   }
 }
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 599px) {
   .footer-block {
     width: calc(100vw/2);
+  }
+
+  #footer {
+    clear: both;
+    margin-top: 30px;
   }
 }
 
