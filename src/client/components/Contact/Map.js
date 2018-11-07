@@ -7,7 +7,7 @@ const Map = () => {
 
   return (
     <div id='map'>
-      <iframe width='100%' height='100%' src={url}></iframe>
+      <iframe src="https://snazzymaps.com/embed/111616" width="100%" height="450px" style={{border:'none'}}></iframe>
     </div>
   )
 }
