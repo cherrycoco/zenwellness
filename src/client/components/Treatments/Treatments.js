@@ -20,7 +20,8 @@ const Treatments = ({treatment}) => (
         imgCenter='http://wpdemos.themezaa.com/brando/spa/wp-content/uploads/2016/04/spa-img8-150x150.jpg'
         imgRight='http://wpdemos.themezaa.com/brando/spa/wp-content/uploads/2016/04/spa-img13-242x300.jpg'
         title='FOOT REFLEXOLOGY'
-        body='Beyond the feel-good effects of the treatment, the practice and purpose go deeper than the skin and muscles by taking specific reflex points on the foot to induce a healing response in corresponding organs and areas of the body.'
+        body='It is an ancient Chinese pressure point massage of the feet to target reflex zones that correspond to organs within the body.
+        Reflexology stimulates energy meridians, which relax and promote a sense of balanced and reawakened energy.'
       />
     </div>
 
