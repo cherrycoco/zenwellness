@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ServiceComponent = (props) => (
   <div 
@@ -13,7 +14,7 @@ const ServiceComponent = (props) => (
       <h1>{props.title}</h1>
     </div>
     <div className='mainBody-serviceComponent-readMore'>
-      <h2>READ MORE</h2>
+    <Link to={props.link}><h2>READ MORE</h2></Link>
     </div>
   </div>
 );

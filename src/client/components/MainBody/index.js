@@ -55,6 +55,7 @@ const MainBody = () => (
         <ServiceComponent 
           title='MASSAGE'
           img={massageImg}
+          link='/massage'
         />
       </ScrollAnimation>
       <ScrollAnimation
@@ -65,6 +66,7 @@ const MainBody = () => (
         <ServiceComponent 
           title='ACUPUNCTURE'
           img={spa1Img}
+          link='/acupuncture'
         />
       </ScrollAnimation>
       <ScrollAnimation
@@ -75,6 +77,7 @@ const MainBody = () => (
         <ServiceComponent 
           title='FOOT REFLEXOLOGY'
           img={frImg}
+          link='/foot-reflexology'
         />
       </ScrollAnimation>
     </div>
@@ -99,16 +102,16 @@ const MainBody = () => (
     </div> */}
     <Testimonials 
       img={spa4Img}
-      name1='Lily Y'
-      business1='Review from Yelp'
-      avatar1={review1}
-      comment1={`"I came here for a massage but found a great doctor named Stanley and his exclusive herbs. I've been coming here for more than two years. My sciatic pain and frozen shoulders were cured after about 5 times! Later all kinds of pains were gone. Many friends I recommended were cured too. I come once a week now just to maintain overall wellness."`}
-      link1='https://www.yelp.ca/biz/zen-wellness-center-vancouver?start=20'
-      name3='Artemisa Bega'
-      business3='Review from Google'
-      avatar3={review2}
-      comment3={`"A part from the fact that these people are the nicest I've met in the universe, the massage was amazing. Intense but slow enough to let me cope with the pain . Wonderful. Low prices too. They got themselves a new loyal costumer ❤"`}
-      link3='https://www.google.ca/search?q=zen+wellness+center&oq=zen+wellnes&aqs=chrome.0.69i59j69i61j69i60j69i59j69i57j0.4868j0j1&sourceid=chrome&ie=UTF-8#lrd=0x548673e97ce952eb:0xb256c6c2698e64a2,1,,,'
+      name3='Lily Y'
+      business3='Review from Yelp'
+      avatar3={review1}
+      comment3={`"I came here for a massage but found a great doctor named Stanley and his exclusive herbs. I've been coming here for more than two years. My sciatic pain and frozen shoulders were cured after about 5 times! Later all kinds of pains were gone. Many friends I recommended were cured too. I come once a week now just to maintain overall wellness."`}
+      link3='https://www.yelp.ca/biz/zen-wellness-center-vancouver?start=20'
+      name1='Artemisa Bega'
+      business1='Review from Google'
+      avatar1={review2}
+      comment1={`"A part from the fact that these people are the nicest I've met in the universe, the massage was amazing. Intense but slow enough to let me cope with the pain . Wonderful. Low prices too. They got themselves a new loyal costumer ❤"`}
+      link1='https://www.google.ca/search?q=zen+wellness+center&oq=zen+wellnes&aqs=chrome.0.69i59j69i61j69i60j69i59j69i57j0.4868j0j1&sourceid=chrome&ie=UTF-8#lrd=0x548673e97ce952eb:0xb256c6c2698e64a2,1,,,'
       name2='Jordan M'
       business2='Review from Yelp'
       avatar2={review3}
