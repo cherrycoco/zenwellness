@@ -28,3 +28,54 @@
   color: #ff773c;
   background-color: white;
 }
+
+/* book box */
+.material-icons.md-gray {
+   color: #808080; 
+}
+
+.book-box-contact {
+  margin: 20px 10px;
+}
+
+@media only screen and (min-width: 860px) {
+  .book-box-wrapper {
+    width: 330px;
+    border: 1px solid #e5e5e5;
+    height: 230px;
+  }
+
+  .book-box {
+    width: 280px;
+    margin: 30px auto;
+  }
+}
+
+@media only screen and (max-width: 859px) {
+  .book-box-wrapper {
+    width: 80%;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .book-box {
+    width: 90%;
+    margin: 30px auto;
+  }
+}
+
+.book-box h3 {
+  text-align: initial;
+  color: rgb(88, 88, 88);
+  line-height: 1.1em;
+  font-size: 1.6em;
+  margin: 0 auto;
+}
+
+.book-box-contact a {
+  color: #808080;
+  font-weight: 400;
+  vertical-align: top;
+  font-size: 1.1em;
+  padding-left: 15px;
+}
