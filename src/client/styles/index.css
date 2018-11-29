@@ -149,3 +149,8 @@ h1 {
 .show {
   display: block;
 }
+
+
+.clearFloat {
+  clear: both;
+}

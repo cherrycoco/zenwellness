@@ -94,10 +94,6 @@
     top: -70px;
   }
 
-  .clearFloat {
-    clear: both;
-  }
-
   .border-underline-from-left {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
