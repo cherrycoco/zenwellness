@@ -14,6 +14,7 @@ class Nav extends React.Component {
         <NavLink activeStyle={activeStyle} to='/treatments'>Treatments</NavLink>
         <NavLink activeStyle={activeStyle} to='/rates'>Rates</NavLink>
         <NavLink activeStyle={activeStyle} to='/contact'>Contact</NavLink>
+        {/* <NavLink activeStyle={activeStyle} to='/giftcard'>Gift Card</NavLink> */}
       </div>
   )}
 }
