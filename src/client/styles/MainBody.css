@@ -21,6 +21,12 @@
   width: 90%;
 }
 
+.main-img img {
+  position: fixed;
+  bottom: 5%;
+  right: 50%;
+}
+
 @media only screen and (max-width: 599px) {
   .main-img {
     background-attachment: scroll;

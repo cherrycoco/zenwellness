@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
+import scrolldownIcon from '../../assets/scrolldownIcon.png';
 
 const MainImg = (props) => (
   <ScrollAnimation
@@ -18,6 +19,7 @@ const MainImg = (props) => (
         }} 
     >
       <h1>{`\u2014 ${props.title} \u2014`}</h1>
+      <img src={scrolldownIcon} />
     </div>
   </ScrollAnimation>
 )
