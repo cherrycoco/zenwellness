@@ -8,11 +8,11 @@ const PriceList = () => (
         <h2>Acupuncture</h2>
         <div className='items'>
           <div className='item'>Initial Assessment & Treatment</div>
-          <div className='price'>$105</div>
+          <div className='price'>$150</div>
         </div>
         <div className='items'>
           <div className='item'>Subsequent Treatments</div>
-          <div className='price'>$88</div>
+          <div className='price'>$125</div>
         </div>
       </div>
 

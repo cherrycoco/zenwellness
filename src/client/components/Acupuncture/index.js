@@ -69,10 +69,10 @@ class Acupuncture extends React.Component {
           <p>Atraumatic acupuncture needles are rounded at the tip so that they slide smoothly through tissue and are unlikely to cause bleeding. Needles are left in place for 15 to 30 minutes during which time the practitioner may manipulate the needles in order to strengthen or reduce the flow of Qi.</p>
           <p><b>Rates</b></p>
           <h4>Initial Assessment & Treatment</h4>
-          <h5>$105</h5>
+          <h5>$150</h5>
           <div className='clearFloat'/>
           <h4>Subsequent Treatments</h4>
-          <h5>$88</h5>
+          <h5>$125</h5>
           <div className='clearFloat' />
         </div>
         </ScrollAnimation>
